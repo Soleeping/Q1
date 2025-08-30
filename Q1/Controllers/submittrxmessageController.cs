@@ -113,7 +113,7 @@ public class submittrxmessageController : ControllerBase
         }
     }
 
-        var timestampResult = ValidateTimestamp(request.timestamp);
+       /* var timestampResult = ValidateTimestamp(request.timestamp);
         if (!timestampResult.IsValid)
         {
             return new SubmitTrxResponse
@@ -133,7 +133,7 @@ public class submittrxmessageController : ControllerBase
                 resultmessage = signatureResult.ErrorMessage
             };
         }
-
+       */
         return null; 
 }
 
